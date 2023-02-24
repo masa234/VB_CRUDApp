@@ -1,0 +1,248 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VB_CRUDApp2
+</name>
+</assembly>
+<members>
+<member name="T:VB_CRUDApp2.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:VB_CRUDApp2.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:VB_CRUDApp2.My.Resources.Resources.Culture">
+<summary>
+  すべてについて、現在のスレッドの CurrentUICulture プロパティをオーバーライドします
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="M:VB_CRUDApp2.Article.ArticleInsert(System.String,System.Int64)">
+ <summary>
+ 記事投稿
+ </summary>
+ 2023/02/23
+</member>
+<member name="M:VB_CRUDApp2.Article.GetArticles">
+ <summary>
+ 記事一覧取得
+ </summary>
+ 2023/02/23
+</member>
+<member name="M:VB_CRUDApp2.Article.ArticleDelete(System.Int64)">
+ <summary>
+ 記事削除
+ </summary>
+ 2023/02/23
+</member>
+<member name="M:VB_CRUDApp2.Article.GetArticle(System.Int64)">
+ <summary>
+ 記事取得
+ </summary>
+ 2023/02/23
+</member>
+<member name="M:VB_CRUDApp2.Article.ArticleUpdate(System.String,System.Int64,System.Int64)">
+ <summary>
+ 記事更新
+ </summary>
+ 2023/02/23
+</member>
+<member name="M:VB_CRUDApp2.CommonProc.IsFitInText(System.String,System.Int64)">
+ <summary>
+ 文字列がおさまっているかどうか？
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.CommonProc.HideAndOpen(System.Windows.Forms.Form,System.Windows.Forms.Form)">
+ <summary>
+ フォームを開く
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.#ctor">
+ <summary>
+ コンストラクタ
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.ConOpen">
+ <summary>
+ コネクションオープン
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.BeginTran">
+ <summary>
+ トランザクション開始
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.Commit">
+ <summary>
+ コミット
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.RollBack">
+ <summary>
+ コミット
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.ExecuteNonQuery(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+ <summary>
+ INSERT, UPDATE, DELETE用
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.ExecuteScalar(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+ <summary>
+ SELECT COUNT用
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.ExecuteReader(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+ <summary>
+ SELECT用
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.GetDt(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+ <summary>
+ SELECT用
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.DisposeAllObject">
+ <summary>
+ 破棄
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.DB.Finalize">
+ <summary>
+ デストラクタ
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.frmArticles.InitForm">
+ <summary>
+ フォーム初期化
+ </summary>
+ 2023/02/23
+</member>
+<member name="M:VB_CRUDApp2.frmArticles.SetDataSource">
+ <summary>
+ データソース設定
+ </summary>
+ 2023/02/23
+</member>
+<member name="M:VB_CRUDApp2.frmTweets.InitForm">
+ <summary>
+ フォーム初期化
+ </summary>
+ 2023/02/16
+</member>
+<member name="M:VB_CRUDApp2.frmTweets.SetDataSource">
+ <summary>
+ データソース設定
+ </summary>
+ 2023/02/16
+</member>
+<member name="M:VB_CRUDApp2.frmTweetUpdate.InitForm">
+ <summary>
+ フォーム初期化
+ </summary>
+ 2023/02/16
+</member>
+<member name="M:VB_CRUDApp2.frmUsers.InitForm">
+ <summary>
+ フォーム初期化
+ </summary>
+ 2023/02/16
+</member>
+<member name="M:VB_CRUDApp2.frmUsers.SetDataSource">
+ <summary>
+ データソースを設定
+ </summary>
+ 2023/02/16
+</member>
+<member name="M:VB_CRUDApp2.Tweet.TweetInsert(System.String,System.Int64)">
+ <summary>
+ ツイート投稿
+ </summary>
+ 2023/02/14
+</member>
+<member name="M:VB_CRUDApp2.Tweet.GetTweets">
+ <summary>
+ ツイート一覧取得
+ </summary>
+ 2023/02/16
+</member>
+<member name="M:VB_CRUDApp2.Tweet.TweetDelete(System.Int64)">
+ <summary>
+ ツイート削除
+ </summary>
+ 2023/02/16
+</member>
+<member name="M:VB_CRUDApp2.Tweet.GetTweet(System.Int64)">
+ <summary>
+ ツイート取得
+ </summary>
+ 2023/02/14
+</member>
+<member name="M:VB_CRUDApp2.Tweet.TweetUpdate(System.String,System.Int64,System.Int64)">
+ <summary>
+ ツイート更新
+ </summary>
+ 2023/02/16
+</member>
+<member name="M:VB_CRUDApp2.User.IsExistsUser(System.String,System.String)">
+ <summary>
+ ユーザが存在するかどうか?
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.User.GetUserID(System.String,System.String)">
+ <summary>
+ ユーザID取得
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.User.UserRegister(System.String,System.String)">
+ <summary>
+ ユーザ登録
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.User.GetUsers">
+ <summary>
+ ユーザ一覧取得
+ </summary>
+ 2023/02/11
+</member>
+<member name="M:VB_CRUDApp2.User.UserDelete(System.Int64)">
+ <summary>
+ ユーザ削除
+ </summary>
+ 2023/02/14
+</member>
+<member name="M:VB_CRUDApp2.User.GetUser(System.Int64)">
+ <summary>
+ ユーザ取得
+ </summary>
+ 2023/02/14
+</member>
+<member name="M:VB_CRUDApp2.User.UserUpdate(System.String,System.String,System.Int64)">
+ <summary>
+ ユーザ更新
+ </summary>
+ 2023/02/14
+</member>
+</members>
+</doc>
